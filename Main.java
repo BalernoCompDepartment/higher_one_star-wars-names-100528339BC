@@ -18,7 +18,7 @@ class Main {
     System.out.println("Enter the Name of the city you were born");
     String city = scan.next();
 
-    String starwarsName = surname.substring(0,3).toLowerCase() + forename.substring(0,2).toLowerCase().toLowerCase() + " " + mother.substring(0,3).toLowerCase() + city.substring(0,2).toLowerCase();
+    String starwarsName = surname.substring(0,3) + forename.substring(0,2).toLowerCase().toLowerCase() + " " + mother.substring(0,3) + city.substring(0,2).toLowerCase();
 
     System.out.println("your starwars name is "+ starwarsName);
 
